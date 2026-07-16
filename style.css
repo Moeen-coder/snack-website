@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background-color: orange;
     color: white;
@@ -13,28 +14,76 @@ header {
 
 header img {
     width: 80px;
+    height: 80px;
 }
 
-main {
-    margin: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    background-color: white;
+header h1 {
     margin: 10px 0;
-    padding: 10px;
-    border: 1px solid gray;
 }
 
+header p {
+    margin: 0;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Snacks Section */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Snack Card */
+.snack-card {
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
+
+.snack-card img {
+    width: 180px;
+    height: 130px;
+}
+
+.snack-card h3 {
+    margin: 10px 0;
+}
+
+.snack-card p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Footer */
 footer {
     background-color: orange;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
 }
